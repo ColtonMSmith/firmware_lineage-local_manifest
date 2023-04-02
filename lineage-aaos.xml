@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="sa-lineage" fetch="https://github.com/snappautomotive" revision="lineage-18.1-AAOS"/>
+  <remote name="sa-lineage" fetch="https://github.com/ColtonMSmith" revision="lineage-18.1-AAOS"/>
 
   <!-- Replace the gts4lv target with a AAOS version -->
   <!-- These should have already been removed from the roomservice local manifest -->
 
-  <project path="device/samsung/gts4lv" name="firmware-device_samsung_gts4lvaaos" remote="sa-lineage" />
-  <project path="device/samsung/gts4lv-common" name="firmware-device_samsung_gts4lvaaos_common" remote="sa-lineage" />
+  <project path="device/amazon/karnak" name="firmware-device_samsung_gts4lvaaos" remote="sa-lineage" />
+  <project path="device/amazon/karnak-common" name="firmware-device_samsung_gts4lvaaos_common" remote="sa-lineage" />
 
   <!-- Override the launcher so we can remove Trebuchet during the build -->
 
